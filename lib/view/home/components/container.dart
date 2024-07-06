@@ -35,6 +35,7 @@ class CardsContainer extends StatelessWidget {
                     fontSize: 23)),
           ),
           Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               SingleChildScrollView(
                 child: Container(
